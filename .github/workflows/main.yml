@@ -19,4 +19,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build Panacloud_Mahmood_Covid19_App.surge.sh --token ${{ secrets.SECRECT}}
+        run: surge ./build Panacloud_Mahmood_ReactApp.surge.sh --token ${{ secrets.SECRECT}}
